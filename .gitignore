@@ -1,0 +1,41 @@
+# RNA-seq data files
+fastq/**/*.fastq.gz
+fastq/**/*.fq.gz
+
+# Reference genome files (large)
+src/*.fa
+src/*.fa.gz
+src/*.fasta
+src/*.fasta.gz
+src/*.gtf
+src/*.gtf.gz
+src/STAR_index_*/
+
+# Output directories
+output/
+
+# Conda environment (recreate via setup script)
+rnaseq_tools/
+
+# Generated activation script
+script/activate_env.sh
+
+# Backup files
+*.bak
+*.bak2
+*.bak3
+*.bak_edger
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Log files
+*.log
